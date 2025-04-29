@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Netflix Help Center</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>NETFLIX<span style="font-size: 0.7em; vertical-align: super;">HELP</span></h1>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html" class="active">FAQ</a></li>
+                    <li><a href="track.html">Track Request</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to the most common Netflix streaming issues</p>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-categories">
+                <button class="category-btn active" data-category="all">All Topics</button>
+                <button class="category-btn" data-category="streaming">Streaming</button>
+                <button class="category-btn" data-category="billing">Billing</button>
+                <button class="category-btn" data-category="account">Account</button>
+            </div>
+            
+            <div class="faq-accordion">
+                <div class="faq-item" data-category="streaming">
+                    <div class="faq-question">
+                        <h3>Why is my Netflix buffering or not loading?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Buffering usually happens because of a slow or unstable internet connection. Here's how to fix it:</p>
+                        <ol>
+                            <li>Check your internet speed at <a href="https://fast.com" target="_blank">fast.com</a> (Netflix's own speed test)</li>
+                            <li>Restart your router by unplugging it for 30 seconds</li>
+                            <li>Try a different device if possible</li>
+                            <li>Lower the streaming quality in your Netflix account settings</li>
+                            <li>Make sure no other devices are using significant bandwidth</li>
+                        </ol>
+                        <p>If these steps don't work, your ISP might be throttling Netflix traffic during peak hours.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="streaming">
+                    <div class="faq-question">
+                        <h3>How do I fix Netflix error codes?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Common Netflix error codes and solutions:</p>
+                        <ul>
+                            <li><strong>Error UI-800-3</strong> - Clear browser cache or reinstall app</li>
+                            <li><strong>Error NW-2-5</strong> - Check network connection</li>
+                            <li><strong>Error H7361-1253-80070006</strong> - Restart device</li>
+                            <li><strong>Error AVF-FAILED</strong> - Update device firmware</li>
+                            <li><strong>Error Code: M7111-1331-5059</strong> - You're using a VPN or proxy; turn it off</li>
+                        </ul>
+                        <p>For any other error codes, try the standard troubleshooting: restart your device, check your internet connection, sign out of Netflix, and sign back in.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="billing">
+                    <div class="faq-question">
+                        <h3>Why was my credit card charged twice by Netflix?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Double charges from Netflix can happen for several reasons:</p>
+                        <ul>
+                            <li>You have multiple Netflix accounts using the same payment method</li>
+                            <li>Your subscription renewed while a previous payment was still processing</li>
+                            <li>You recently upgraded your plan and were charged the difference</li>
+                            <li>A family member set up their own account with your card</li>
+                        </ul>
+                        <p>To resolve this, check your Netflix account page to verify your subscription details, then contact Netflix customer support with your billing date and the amounts charged if you still believe there's an error.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="billing">
+                    <div class="faq-question">
+                        <h3>How do I update my payment details on Netflix?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To update your payment method on Netflix:</p>
+                        <ol>
+                            <li>Log in to your Netflix account</li>
+                            <li>Click on your profile icon in the top right</li>
+                            <li>Select "Account" from the dropdown menu</li>
+                            <li>Under "Membership & Billing" click "Manage payment info"</li>
+                            <li>Select "Add Payment Method" or edit your existing payment details</li>
+                            <li>Enter your new payment information and save changes</li>
+                        </ol>
+                        <p>If you're unable to update your payment info online, contact Netflix customer support for assistance.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="account">
+                    <div class="faq-question">
+                        <h3>How do I reset my Netflix password?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To reset your Netflix password:</p>
+                        <ol>
+                            <li>Go to Netflix.com/login</li>
+                            <li>Click the "Need help?" link</li>
+                            <li>Select "Email" or "Text Message" to receive a reset link</li>
+                            <li>Enter your email address or phone number</li>
+                            <li>Check your email or text messages for a reset link</li>
+                            <li>Create a new password that you haven't used before</li>
+                        </ol>
+                        <p>If you don't receive a reset email or text, check your spam folder or try adding <strong>info@netflix.com</strong> to your contacts.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-category="account">
+                    <div class="faq-question">
+                        <h3>How do I manage devices connected to my Netflix account?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To manage devices using your Netflix account:</p>
+                        <ol>
+                            <li>Sign in to your Netflix account</li>
+                            <li>Go to "Account" from the dropdown menu</li>
+                            <li>Scroll down to "Settings" section</li>
+                            <li>Click "Manage access and devices"</li>
+                            <li>You'll see a list of recent devices that accessed your account</li>
+                            <li>Click "Sign Out" next to any device you want to remove</li>
+                        </ol>
+                        <p>If you suspect unauthorized access, after signing out all devices, immediately change your password to secure your account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>NETFLIX<span style="font-size: 0.7em; vertical-align: super;">HELP</span></h3>
+                    <p>Your streaming companion for troubleshooting</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="track.html">Track Request</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> help@netflixsupport.com</p>
+                    <p><i class="fas fa-phone"></i> 1-800-NETFLIX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Netflix Help Center - Not affiliated with Netflix, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>

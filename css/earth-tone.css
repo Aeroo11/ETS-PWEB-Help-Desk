@@ -1,0 +1,135 @@
+/* Earth Tone Theme - Additional Styles */
+
+/* Import proper fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Enhance specific elements for earth tones */
+.contact-form, .message-preview, .track-form, .ticket-result {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+}
+
+.preview-content {
+    background: var(--darker-bg);
+    border: 1px solid var(--border-color);
+}
+
+.faq-item {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    background-color: var(--dark-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(139, 107, 76, 0.2);
+}
+
+/* Natural transitions */
+.btn, a, .card {
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Footer styling */
+footer {
+    background: var(--darker-bg);
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-logo h3 {
+    color: var(--primary-color);
+}
+
+.footer-links h4, .footer-contact h4 {
+    color: var(--primary-color);
+}
+
+.footer-links ul li a {
+    color: var(--light-text);
+}
+
+.footer-links ul li a:hover {
+    color: var(--primary-color);
+}
+
+.footer-contact p {
+    color: var(--light-text);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-bottom p {
+    color: var(--light-text);
+}
+
+/* Status indicators */
+.status-badge {
+    border: none;
+}
+
+.status-badge.processing {
+    background-color: var(--info);
+}
+
+.status-badge.complete {
+    background-color: var(--success);
+}
+
+.status-badge.waiting {
+    background-color: var(--warning);
+}
+
+/* Category buttons */
+.category-btn {
+    background: #ffffff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.category-btn:hover, .category-btn.active {
+    background: var(--primary-color);
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(139, 107, 76, 0.2);
+}
+
+/* Mobile menu */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        background: var(--darker-bg);
+    }
+}
+
+/* Nature-inspired icons */
+.card-icon {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-icon {
+    transform: translateY(-5px);
+}
+
+.sample-tickets {
+    background: var(--darker-bg);
+    border: 1px solid var(--border-color);
+}
+
+/* Add subtle texture to elements */
+.card, .contact-form, .message-preview, .track-form, .ticket-result {
+    background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+    background-blend-mode: overlay;
+}
